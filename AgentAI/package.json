@@ -1,0 +1,20 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "chatbot powered by ChatGPT",
+ "type": "module",
+  "main": "index_embeddings.js",
+  "scripts": {
+    "start": "node index_embeddings.js"
+  },
+  "author": "Matin",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "airtable": "^0.11.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^3.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
